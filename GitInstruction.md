@@ -38,3 +38,6 @@
 ## Визуализация репозиториев
 для того что бы посмотреть    всю  коммитов в виде графика
 необходимо  *git log* с флагом *--hraph*
+git log --pretty=format:"%h - %an, %ar : %s"
+Miroslav Korablev 11:54
+git log --pretty=format:"%h - %an, %ar : %s"
